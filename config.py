@@ -1,0 +1,10 @@
+DEBUG = True
+USERNAME = 'root'
+PASSWORD = 'a88387717'
+SERVER = 'localhost'
+DB = 'api_flask'
+
+SQLALCHEMY_DATABASE_URI = f'mysql://{USERNAME}:{PASSWORD}@{SERVER}/{DB}'
+SQLACHEMY_TRACK_MODIFICATIONS = True
+
+SECRET_KEY = 'aplicacao_flask'
