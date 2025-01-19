@@ -63,6 +63,7 @@ GET /cursos?page=1&per_page=2 HTTP/1.1
 
 
 Resposta (200 OK):
+```
 {
   "data": [
     {
@@ -84,4 +85,5 @@ Resposta (200 OK):
     "total": 10
   }
 }
+```
 
