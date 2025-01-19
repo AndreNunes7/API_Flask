@@ -60,3 +60,28 @@ GET /cursos?page=1&per_page=2 HTTP/1.1
   }
 }
 
+
+
+Resposta (200 OK):
+{
+  "data": [
+    {
+      "id": 1,
+      "nome": "Curso de Python",
+      "descricao": "Aprenda Python do básico ao avançado",
+      "formacao_id": 1
+    },
+    {
+      "id": 2,
+      "nome": "Curso de Java",
+      "descricao": "Domine a linguagem Java e seus frameworks",
+      "formacao_id": 2
+    }
+  ],
+  "meta": {
+    "page": 1,
+    "per_page": 2,
+    "total": 10
+  }
+}
+
